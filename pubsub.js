@@ -26,7 +26,6 @@ device
 
 function selectColor(){
     var index = Math.round((Math.random() * 2)) ;
-    console.log(index);
     device.publish('signal/colorcode','{"color":"' + colorOptions[index] + '"}');
 }
 

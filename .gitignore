@@ -39,3 +39,8 @@ jspm_packages
 #certificates
 .key
 .crt
+.pem
+
+#xdk
+xdk
+xdk*.jsons
